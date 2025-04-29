@@ -280,7 +280,7 @@ public class BlackjackGameFX extends Application {
         System.out.println("Starting game: Setting hitButton and standButton visible");
         game.startGame();
         renderGame();
-        statusText.setText("Your move: Hit or Stand");
+        statusText.setText("Dealers hand\n Your move: Hit or Stand\nYour Hand");
         hitButton.setVisible(true);
         standButton.setVisible(true);
         startButton.setVisible(false);
